@@ -1,5 +1,4 @@
 <!-- File name: Hotels.xml --> 
-<?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
     <Hotel rating = "4.2">
         <Name>Westin</Name>
