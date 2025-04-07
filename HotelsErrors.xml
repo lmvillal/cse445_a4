@@ -1,0 +1,115 @@
+<!-- File name: HotelsErrors.xml --> 
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel> <!-- Error 1) Root element name changed to Hotel instead of Hotels --> 
+    <Hotel rating = "4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Address nearestAirport = "Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.7">
+        <Name>Sanctuary Camelback Mountain</Name>
+        <Phone>855-421-3522</Phone>
+        <Address> <!--Error 2) Required Attribute Missing --> 
+            <Number>5700</Number>
+            <Street>E. Mcdonald Dr</Street>
+            <City>Paradise Valley</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.3">
+        <Name>Arizona Grand Resort and Spa</Name>
+        <!-- Error 3) Phone element missing --> 
+        <Address nearestAirport = "Sky Harbor">
+            <Number>8000</Number>
+            <Street>South Arizona Grand E</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85044</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.7">
+        <Name>The Ritz-Carlton</Name>
+        <Phone>520-572-3000</Phone>
+        <Address nearestAirport = "Tucson International Airport">
+            <Number>15000 <!-- Error 4) Address elect? with no closing tag --> 
+            <Street>N Secret Springs Dr</Street>
+            <City>Marana</City>
+            <State>AZ</State>
+            <Zip>85658</Zip>
+        </Address> 
+    </Hotel>
+    <Hotel rating = "4.7">
+        <Name>Castel Hot Springs</Name>
+        <Name>Castle Hot Springs Two</Name> <!-- Error 5) Address elect? with no closing tag --> 
+        <Phone>844-348-1601</Phone>
+        <Address nearestAirport = "Sky Harbor">
+            <Number>5050</Number>
+            <Street>N Castle Hot Springs Rd</Street>
+            <City>Morristown</City>
+            <State>AZ</State>
+            <Zip>85342</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.6">
+        <Name>The Phoenician</Name>
+        <Phone>480-941-8200</Phone>
+        <Address nearestAirport = "Phoenix Scottsdale Municipal Airport">
+            <Number>6000</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.6">
+        <Name>Fairmont Scottsdale Princess</Name>
+        <Phone>480-585-4848</Phone>
+        <Address nearestAirport = "Sky Harbor">
+            <Number>7575</Number>
+            <Street>E Princess Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85255</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.7">
+        <Name>Mountain Shadow Resort</Name>
+        <Phone>855-485-1417</Phone>
+        <Address nearestAirport = "Sky Harbor">
+            <Number>5445</Number>
+            <Street>E Lincoln Dr</Street>
+            <City>Paradise Valley</City>
+            <State>AZ</State>
+            <Zip>85253</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.6">
+        <Name>Arizona Biltmore</Name>
+        <Phone>602-955-6600</Phone>
+        <Address nearestAirport = "Sky Harbor">
+            <Number>2400</Number>
+            <Street>E Missouri Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+    <Hotel rating = "4.7">
+        <Name>Four Seasons Resort</Name>
+        <Phone>480-515-5700</Phone>
+        <Address nearestAirport = "Phoenix Scottsdale Municipal Airport">
+            <Number>10600</Number>
+            <Street>E Crescent Moon Dr</Street>
+            <City>Scottdale</City>
+            <State>AZ</State>
+            <Zip>85262</Zip>
+        </Address>
+    </Hotel>
+</Hotels>
