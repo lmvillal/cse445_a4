@@ -1,5 +1,4 @@
 <!-- File name: HotelsErrors.xml --> 
-<?xml version="1.0" encoding="UTF-8"?>
 <Hotel> <!-- Error 1) Root element name changed to Hotel instead of Hotels --> 
     <Hotel rating = "4.2">
         <Name>Westin</Name>
